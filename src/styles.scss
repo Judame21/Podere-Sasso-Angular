@@ -1,1 +1,73 @@
-/* You can add global styles to this file, and also import other style files */
+$color-principal-naranja: #e27551;
+$color-fondo:#313131; 
+$color-negro:#000000; 
+
+
+:root{
+    color-scheme: light dark;
+    background-color: $color-fondo;
+}
+
+body{
+    margin: 0px;
+}
+
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.casa-imagen{
+    width: 100vw;
+    overflow: hidden;
+}
+
+.contenedor-casa{
+    height: 93vh;
+    overflow: hidden;
+    align-items: center;
+}
+/* Estilos para la sección de información sobre viñedos */
+.informacion-vinedos {
+    background-color: #f9f9f9;
+    padding: 40px;
+    margin-top: 40px;
+    text-align: center; /* Centra el texto */
+  }
+  
+  .informacion-vinedos h2 {
+    color: #333;
+  }
+  
+  .informacion-vinedos p {
+    color: #666;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .contenedor-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contenedor-footer p {
+    margin: 0;
+  }
+  
+  .contenedor-footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .contenedor-footer a:hover {
+    text-decoration: underline;
+  }
+  

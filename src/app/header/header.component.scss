@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+header{
+    display: grid; /* Make the header a grid container */
+    grid-template-columns: 1fr min-content 1fr; /* Define three columns */
+    align-items: center; /* Align items vertically at the center */
+    --solidHeaderBackgroundColor: hsla(var(--accent-hsl), 1);
+    height: 125px;
+    position: absolute;
+    width: 100vw;
+    backdrop-filter: blur(12px);
+    overflow: hidden;
+    align-items: center;
+    font-family: 'Cormorant Garamond';
+}
+
+img {
+    display: block; /* Ensure the image is treated as a block element */
+    margin: 0 auto; /* Remove default margins and center horizontally */
+    width: 87px;
+    height: 87px;
+}
+.menu-normal{
+    display: flex;
+    margin-left: 50px;
+}
+nav *{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    
+}
+
+
+.social-icon {
+    font-size: 25px;
+     /* Set line-height equal to font-size */
+    color: white !important;
+    
+}
+
